@@ -11,6 +11,6 @@ Register command inside `start/app.js` file.
 
 ```js
 const commands = [
-  'hyungju/adonisjs-create-serviceproviders/ServiceCommand'
+  'adonisjs-create-service/providers/ServiceCommand'
 ]
 
