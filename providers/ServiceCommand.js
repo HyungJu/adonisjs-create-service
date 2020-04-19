@@ -30,7 +30,7 @@ class ServiceCommand extends Command {
     }
 
     await this.ensureDir(Helpers.appRoot('app/Services'))
-    await this.copy(path.resolve(__dirname, '../Services/Service.js'), Helpers.appRoot('app/Services/' + file))
+    await this.copy(path.resolve(__dirname, '../src/Services/Service.js'), Helpers.appRoot('app/Services/' + file))
 
     await replace({
       files: Helpers.appRoot('app/Services/' + file),
