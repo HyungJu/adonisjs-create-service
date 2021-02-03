@@ -16,7 +16,7 @@ Register command inside `start/app.js` file.
 const commands = ["adonisjs-create-service/providers/ServiceCommand"];
 ```
 
-## User
+## Use
 
 Run
 
