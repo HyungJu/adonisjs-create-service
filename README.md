@@ -21,7 +21,7 @@ const commands = ["adonisjs-create-service/providers/ServiceCommand"];
 Run
 
 ```js
-  adonis make:serive {NameService}
+  adonis make:service {NameService}
 ```
 
 And register provider inside `start/app.js`
